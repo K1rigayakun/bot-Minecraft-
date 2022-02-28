@@ -39,18 +39,18 @@ bot.on('login',function(){
 	   task(i); 
 	} 
 	console.log("Sukses Login")
-	bot.chat("Halo semua");
+	bot.chat("§4Gw admin Btw:]");
 });
   
 function task(i) { 
 	
   setTimeout(function() { 
     if(first == true){
-	bot.chat("Selamat bergabung di server ini")
-	first = false;
+	bot.chat("§4Who are you?")
+	first = true;
 	}
 	else{
-		bot.chat("Diperbarui oleh vanevgt")
+		bot.chat("§4ErorErorEror§kah1926.|=¢℅€^=€")
 		first = true;
 	}
   }, 3600000 * i); 
