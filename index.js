@@ -39,18 +39,18 @@ bot.on('login',function(){
 	   task(i); 
 	} 
 	console.log("Sukses Login")
-	bot.chat("false");
+	bot.chat("hi");
 });
   
 function task(i) { 
 	
   setTimeout(function() { 
     if(first == true){
-	bot.chat("false")
+	bot.chat("jan ngencheat woi")
 	first = false;
 	}
 	else{
-		bot.chat("§4false")
+		bot.chat("hi")
 		first = true;
 	}
   }, 3600000 * i); 
