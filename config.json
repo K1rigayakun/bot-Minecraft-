@@ -1,9 +1,0 @@
-{
-	"ip":"K1ngdomsSmpS2.aternos.me",
-	"port": "60099",
-	"name": "Herobrine",
-	"auto-night-skip":"false",
-	"login-enabled":"false",
-	"register-cmd":"false",
-	"login-cmd":"false"
-}
