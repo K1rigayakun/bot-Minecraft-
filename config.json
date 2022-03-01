@@ -1,0 +1,9 @@
+{
+	"ip":"K1ngdomsSmpS2.aternos.me",
+	"port": "60099",
+	"name": "HEROBRINE",
+	"auto-night-skip":"false",
+	"login-enabled":"false",
+	"register-cmd":"/register pass123 ",
+	"login-cmd":"/login pass123 "
+}
