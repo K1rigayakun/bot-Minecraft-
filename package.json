@@ -1,17 +1,18 @@
 {
-  "name": "minecraftbotserver1.18",
+  "name": "afkbot",
   "version": "1.0.0",
-  "description": "Minecraft bot server ver 1.18",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "vanevgt",
+  "author": "MannuG",
   "license": "ISC",
   "dependencies": {
-    "minecraft-protocol": "^1.30.0",
-    "mineflayer": "^3.15.0",
-    "mineflayer-blockfinder": "^0.0.7",
-    "mineflayer-cmd": "^1.1.3"
+    "config": "^3.3.3",
+    "fs": "0.0.1-security",
+    "mineflayer": "^2.37.1",
+    "mineflayer-blockfinder": "0.0.7",
+    "mineflayer-cmd": "^1.0.2"
   }
 }
